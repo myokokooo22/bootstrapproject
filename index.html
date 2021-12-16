@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--icon-->
+        <link href="./img/logo.png" rel="icon" type="image/png" sizes="16x16"/>
+        <!--bootstrap css1 js2-->
+        <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!--fontawesome css1-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--flatpickr css1-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <!--custom css1-->
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Pan Pacific Hotel, Yangon</title>
+    </head>
+    <body>
+        <!--Start Header-->
+        <header  id="home" >
+            <!--start nav-->
+                <nav class="navbar navbar-expand-lg fixed-top p-2">
+                    <a href="#" class="navbar-brand text-uppercase fw-bold mx-3">
+                        <img src="./img/logo.png" alt="logo" width="50px"/>
+                        <span>Pan Pacific Hotel</span></a>
+
+                   <button type="button" class="navbar-toggler btns" data-bs-toggle="collapse" data-bs-target="#nav"><i class="fas fa-bars"></i></button> 
+                    <div id="nav" class="navbar-collapse collapse justify-content-end text-uppercase fw-bold">
+                        <ul class="navbar-nav">
+                            <li class="navbar-item"><a href="#home" class="nav-link m-2">Home</a></li>
+                            <li class="navbar-item"><a href="#booking" class="nav-link m-2">Booking</a></li>
+                            <li class="navbar-item"><a href="#services" class="nav-link m-2">Services & Facilities</a></li>
+                            <li class="navbar-item"><a href="#contact" class="nav-link m-2">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            <!--end nav-->
+
+            <!--start banner-->
+                <div class="banners text-white text-center">
+                    <h1 class="display-4 fw-bold">Welcome to Pan Pacific Hotel</h1>
+                    <button class="btn btn-primary">About Us</button>
+                </div>
+            <!--end banner-->
+
+        </header>
+        <!--End Header-->
+
+        <!--Start Booking-->
+        <div id="booking" class="row">
+            <h2 class="text-center fst-italic my-3 text-warning text-decoration-underline">Reserve in Our Hotel</h2>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-lg-4 col-sm-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./img/deluxeroom.jpg" width="100%" alt="deluxe"/>
+                        <h3>Deluxe King Room</h3>
+                        <h5 class="text-warning text-decoration-underline">About Room</h5>
+                        <ul>
+                            <li>1 Full Bed</li>
+                            <li>35 square meter</li>
+                            <li>4 guest max, with a maximum of 2 adults</li>  
+                            <li>Private BathRoom</li>
+                            <li>Sound Proof</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">View</h5>
+                        <ul>
+                            <li>Pool View</li>
+                            <li>City View</li>
+                            <li>Yangon River View</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">Other Included Services</h5>
+                        <ul>
+                            <li>Free WiFi</li>
+                            <li>Include Breakfast</li>
+                            <li>One Car Parking Space</li>
+                            <li>Air Conditioning</li>
+                            <li>Flat TV Screen</li>
+                            <li>Mini Bar</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card-footer">
+                            <p>Price: <b>$ 105</b></p>
+                            <p>Included Taxes and Fees.</p>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbook">Book Now</button>                       
+                        </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./img/img3.jpg" width="100%" alt="img2"/>
+                        <h3>Premier Corner King Room</h3>
+                        <h5 class="text-warning text-decoration-underline">About Room</h5>
+                        <ul>
+                            <li>1 King Bed</li>
+                            <li>42 square meter</li>
+                            <li>4 guest max, with a maximum of 2 adults</li>  
+                            <li>Private BathRoom</li>
+                            <li>Sound Proof</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">View</h5>
+                        <ul>
+                            <li>Pool View</li>
+                            <li>City View</li>
+                            <li>Yangon River View</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">Other Included Services</h5>
+                        <ul>
+                            <li>Free WiFi</li>
+                            <li>Include Breakfast</li>
+                            <li>One Car Parking Space</li>
+                            <li>Air Conditioning</li>
+                            <li>Flat TV Screen</li>
+                            <li>Mini Bar</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card-footer">
+                            <p>Price: <b>$ 135</b></p>
+                            <p>Included Taxes and Fees.</p>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbook">Book Now</button>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./img/img2.jpg" width="100%" alt="img2"/>
+                        <h3>Premier Studio King Room</h3>
+                        <h5 class="text-warning text-decoration-underline">About Room</h5>
+                        <ul>
+                            <li>1 Full Bed</li>
+                            <li>51 square meter</li>
+                            <li>4 guest max, with a maximum of 2 adults</li>  
+                            <li>Private BathRoom</li>
+                            <li>Sound Proof</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">View</h5>
+                        <ul>
+                            <li>Pool View</li>
+                            <li>City View</li>
+                            <li>Yangon River View</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">Other Included Services</h5>
+                        <ul>
+                            <li>Free WiFi</li>
+                            <li>Include Breakfast</li>
+                            <li>One Car Parking Space</li>
+                            <li>Air Conditioning</li>
+                            <li>Flat TV Screen</li>
+                            <li>Mini Bar</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card-footer">
+                            <p>Price: <b>$ 185</b></p>
+                            <p>Included Taxes and Fees.</p>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbook">Book Now</button>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./img/img4.jpg" width="100%" alt="img4"/>
+                        <h3>Pacific Club Twin Room</h3>
+                        <h5 class="text-warning text-decoration-underline">About Room</h5>
+                        <ul>
+                            <li>1 Full Bed</li>
+                            <li>37 square meter</li>
+                            <li>4 guest max, with a maximum of 2 adults</li>  
+                            <li>Private BathRoom</li>
+                            <li>Sound Proof</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline" data-bs-toggle="modal" data-bs-target="#modalbook">View</h5>
+                        <ul>
+                            <li>Pool View</li>
+                            <li>City View</li>
+                            <li>Yangon River View</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">Other Included Services</h5>
+                        <ul>
+                            <li>Free WiFi</li>
+                            <li>Include Breakfast</li>
+                            <li>One Car Parking Space</li>
+                            <li>Air Conditioning</li>
+                            <li>Flat TV Screen</li>
+                            <li>Mini Bar</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card-footer">
+                            <p>Price: <b>$ 240</b></p>
+                            <p>Included Taxes and Fees.</p>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbook">Book Now</button>                        
+                    </div>
+                </div>
+             </div>
+             
+             <div class="col-lg-4 col-sm-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./img/img8.jpeg" width="100%" alt="img8"/>
+                        <h3>Premier Suite</h3>
+                        <h5 class="text-warning text-decoration-underline" >About Room</h5>
+                        <ul>
+                            <li>1 Full Bed</li>
+                            <li>68 square meter</li>
+                            <li>4 guest max, with a maximum of 2 adults</li>  
+                            <li>Private BathRoom</li>
+                            <li>Sound Proof</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">View</h5>
+                        <ul>
+                            <li>Pool View</li>
+                            <li>City View</li>
+                            <li>Yangon River View</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">Other Included Services</h5>
+                        <ul>
+                            <li>Free WiFi</li>
+                            <li>Include Breakfast</li>
+                            <li>One Car Parking Space</li>
+                            <li>Air Conditioning</li>
+                            <li>Flat TV Screen</li>
+                            <li>Mini Bar</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card-footer">
+                            <p>Price: <b>$ 330</b></p>
+                            <p>Included Taxes and Fees.</p>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbook">Book Now</button>                        
+                    </div>
+                </div>
+             </div>
+
+             <div class="col-lg-4 col-sm-6 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="./img/img7.jpg" width="100%" alt="img7"/>
+                        <h3>Junior Suite</h3>
+                        <h5 class="text-warning text-decoration-underline">About Room</h5>
+                        <ul>
+                            <li>1 Full Bed</li>
+                            <li>62 square meter</li>
+                            <li>4 guest max, with a maximum of 2 adults</li>  
+                            <li>Private BathRoom</li>
+                            <li>Sound Proof</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">View</h5>
+                        <ul>
+                            <li>Pool View</li>
+                            <li>City View</li>
+                            <li>Yangon River View</li>
+                        </ul>
+
+                        <h5 class="text-warning text-decoration-underline">Other Included Services</h5>
+                        <ul>
+                            <li>Free WiFi</li>
+                            <li>Include Breakfast</li>
+                            <li>One Car Parking Space</li>
+                            <li>Air Conditioning</li>
+                            <li>Flat TV Screen</li>
+                            <li>Mini Bar</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card-footer">
+                            <p>Price: <b>$ 300</b></p>
+                            <p>Included Taxes and Fees.</p>
+                            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalbook">Book Now</button>                        
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!--End Booking-->
+
+        <!--Start Service-->
+            <section id="services">
+                <div class="container-fluid bg-light">
+                    <div class="row">
+                        <h2 class="text-center fst-italic my-3 text-warning text-decoration-underline">Our Services and Facilities</h2>
+                    </div>
+
+                    <div class="row my-3">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <img src="./img/img14.jpg" width="100%" alt="img14">
+                            <h5>Business Service</h5>
+                            <p>Let us assist you with your business matters with our selection of support services and meeting spaces.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <img src="./img/img11.jpg" width="100%" alt="img11">
+                            <h5>Fitness Center</h5>
+                            <p>Revitalise your senses with an invigorating workout at our 24-hour fitness centre.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <img src="./img/img1.jpg" width="100%" alt="img1">
+                            <h5>Outdoor Infinity Swimming Pool</h5>
+                            <p>Located on the wellness floor, our outdoor infinity swimming pool offers one of the best photo-taking spots in Yangon.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <img src="./img/img13.jpg" width="100%" alt="img13">
+                            <h5>St. Gregory Spa and Wellness Centre</h5>
+                            <p>St. Gregory offers a full range of wellness facilities, including a sauna, steam room, Jacuzzi, swimming pool, as well as a range of spa treatments for the ultimate indulgence.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <h2 class="text-center fst-italic mb-3 text-warning text-decoration-underline text-uppercase">Weddings</h2>
+                    </div>
+                    
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                            <img src="./img/img15.jpeg" width="100%" alt="img15">
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <p>Create a wedding experience to remember at Pan Pacific Yangon. Conveniently located in the heart of the city, our hotel features a grand ballroom suitable for a lavish reception. With our team of event planners and culinary experts to guide you along the way, tailor your special day to make it a memorable occasion. Fitted with advanced audio-visual equipment, our event space can be customised to host an intimate reception or a grand celebration for up to 600 guests.</p>
+                        </div>
+                    </div>
+
+                    <div class="row bg-muted">
+                        <h5 class="text-warning mx-3 mt-3 text-decoration-underline">Other Additional Services</h5>
+                    </div>
+                    
+                   <div class="row">
+                       <div class="col-md-6">
+                           <h5 class="text-center m-3">Accessibility</h5>
+                           <img src="./img/img17.jpg" width="100%" alt="img16">
+                           <ul class="m-3">
+                               <li>Accessible guestrooms</li>
+                                <li>Accessible meeting rooms</li>
+                                <li>Accessible carpark</li>
+                                <li>Audible alarms</li> 
+                                <li>Bathroom doors at least 32 inches wide</li>
+                                <li>Bedroom doors at least 32 inches wide (812mm)</li>
+                                <li>Braille elevator</li>
+                                <li>Emergency call button on phone</li>
+                                <li>Evacuation chair available to help evacuate a disabled person</li>
+                                <li>Grab bars in bathroom</li>
+                                <li>Hotel complies with ADA Guidelines</li>
+                                <li>Level or ramp entrance into the building</li>
+                                <li>Lowered emergency evacuation instructions</li>
+                                <li>Public Areas/Facilities accessible for physically challenged</li>
+                                <li>Roll-in shower</li>
+                                <li>Service support animals welcome</li>
+                                <li>Strobe alarms</li>
+                                <li>Visual alarm for hearing impaired</li>
+                                <li>Visual alarms for hearing impaired in hallways</li>
+                                <li>Visual alarms for hearing impaired in public areas</li>
+                                <li>Wheelchair ramp for lobby/reception access</li>
+                           </ul>
+                       </div>
+
+                       <div class="col-md-6">
+                           <h5 class="text-center m-3">Amenities</h5>
+                           <img src="./img/img18.jpg" width="100%" alt="img18"/>
+                           <ul class="m-3">
+                            <li>Airport transfers</li>
+                            <li>Accessible </li>
+                            <li>Babysitting</li>
+                            <li>Car rental</li>
+                            <li>Concierge</li>
+                            <li>Currency exchange</li>
+                            <li>Baggage Storage</li>
+                            <li>Guest Activity/Recreation Desk</li>
+                            <li>Laundry/Valet Service</li>
+                            <li>Lounge</li>
+                            <li>Luggage Hold</li>
+                            <li>News Stand</li>
+                            <li>Room Service</li>
+                            <li>Safety Deposit Box</li>
+                           </ul>
+                       </div>
+                   </div>
+                </div>
+
+            </section>
+        <!--End Services-->
+
+        <!--Start Contact Us Section-->
+            <footer id="contact">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h3 class="text-warning text-center text-decoration-underline mt-3">Contact Us:</h3>
+                    </div>
+    
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1087.4559322771763!2d96.1530016406225!3d16.778988833533628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec821fde0e89%3A0x4098cf54a9b73a03!2sPan%20Pacific%20Yangon!5e1!3m2!1sen!2smm!4v1632495924240!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+    
+                        <div class="col-md-6">
+                          <p>Address: Corner of Bogyoke Aung San Road and Shwedagon Pagoda Road, Pabedan Township, Yangon</p>
+                          <p>Phone: 01-163-220</p>
+                          <p>Email: info@panpacificyangon.com</p>
+                          <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#inquirymodal">Send Inquiry</button>
+                        </div>
+                    </div>
+    
+                    <div class="row text-center p-3 copyrights">
+                        <p>Copyright &copy; <span id="year">2017</span> Pan Pacific Yangon.</p>
+                        <div class="elfsight-app-5953faba-fa4c-49de-b461-df9a2d43316a"></div>
+                    </div>
+                </div>
+               
+            </footer>
+        <!--End Contact Us Section-->
+
+        <!--Start Book Modal-->
+            <div id="modalbook" class="modal">
+                <div class="modal-dialog modal-dialog-centered modal-md">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <h5 class="modal-title">Reservation</h5>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="col-12">
+                                <form action="" method="">
+                                    <div class="form-group mb-3">
+                                        <label for="name">Name:</label>
+                                        <input type="text" name="name" id="name" class="form-control form-control-sm rounded-0" placeholder="Enter your Name" autocomplete="off">    
+                                    </div>
+
+                                    <div class="form-group mb-3">
+                                        <label for="email">Email:</label>
+                                        <input type="text" name="email" id="email" class="form-control form-control-sm rounded-0" placeholder="Enter your Email" autocomplete="off">    
+                                    </div>
+
+                                    <div class="form-group mb-3">
+                                        <label for="phone">Phone:</label>
+                                        <input type="number" name="phone" id="phone" class="form-control form-control-sm rounded-0" placeholder="Enter your Phone Nuber" autocomplete="off">    
+                                    </div>
+
+                                    <div class="form-group mb-3">
+                                        <label for="from">From:</label>
+                                        <input type="date" name="from" id="from" class="form-control form-control-sm rounded-0" placeholder="Choose Date" autocomplete="off">    
+                                    </div>
+
+                                    <div class="form-group mb-3">
+                                        <label for="to">To:</label>
+                                        <input type="date" name="to" id="to" class="form-control form-control-sm rounded-0" placeholder="Choose Date" autocomplete="off">    
+                                    </div>
+
+                                        <button type="button" class="btn btn-warning rounded-0 col-12">Book Now</button> 
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--End Book Modal-->
+
+        <!--Start Inquiry Modal-->
+            <div id="inquirymodal" class="modal">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen-md-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="text-warning fst-italic">Send me inquiry and complains.</h5>
+                        </div>
+
+                        <div class="modal-body">
+                            <form action="" method="">
+                                <div class="form-group mb-3">
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" id="name" class="form-control from-control-sm rounded-0" placeholder="Enter your Name" autocomplete="off">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email" id="email" class="form-control from-control-sm rounded-0" placeholder="Enter your Email" autocomplete="off">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="phone">Phone:</label>
+                                    <input type="number" name="phone" id="phone" class="form-control from-control-sm rounded-0" placeholder="Enter your Phone Number" autocomplete="off">
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    <label for="comment">Comment:</label>
+                                    <textarea class="col-12" placeholder="Please enter your complain and feedbacks."></textarea>
+                                </div>
+                                
+                                <button type="button" class="btn btn-warning rounded-0 col-12">Book Now</button> 
+
+                                <span class="text-success">Thank you for your feedbacks. We'll noted and saved your inquiries.</span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--End Inquiry Modal-->
+
+        <!--bootstrap css1 js2-->
+        <script src="./bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="./bootstrap/js/popper.min.js" type="text/javascript"></script>
+        <!--jquery js1-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <!--elfsight js1-->
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <!--flatpickr css1 js1-->
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <!--custom js1-->
+        <script src="./js/app.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+        
+     $("#to").flatpickr({
+    minDate: "today",
+    maxDate: new Date().fp_incr(60) 
+    });
+
+    $("#from").flatpickr({
+        minDate: "today",
+        maxDate: new Date().fp_incr(60) 
+    });
+        </script>
+    </body>
+</html>

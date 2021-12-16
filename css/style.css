@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+/* start navbar  */
+header{
+    height: 100vh;
+    background-image: url('../img/img6.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+}
+
+@media (max-width: 1000px) {
+    header{
+        height: 65vh;
+    }
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #997c42;
+    border-bottom: 3px solid #997c42;
+    transition: 0.3s ease;
+}
+
+.navbar-brand{
+    color: #997c42;
+}
+
+.navs{
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px 30px;
+    transition: all 0.7s;
+}
+
+.btns{
+    background-color:rgba(0,0,0,0.8);
+    color:#997c42;
+}
+/* end navbar  */
+
+/* start banner */
+.banners{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner  */
+
+/* Start Reserve section  */
+.card-body ul{
+    list-style: none;
+}
+
+.card-body ul li{
+    text-align: left;
+}
+
+.card-body h5{
+    text-align: left;
+}
+/* End Reverse Section  */
+
+.copyrights{
+    background-color: #997c42;
+    color:white;
+}
+
+@media (max-width: 768px) {
+    ul.navbar-nav{
+        background-color:rgba(0,0,0,0.8);
+        text-align: center;
+    }
+}
